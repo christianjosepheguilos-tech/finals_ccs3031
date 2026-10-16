@@ -63,7 +63,7 @@ const scrolltoProductSection = async (id) => {
 
     img {
       width: 80px;
-      height: 100px;
+      height: 110px;
       
     }
   }
