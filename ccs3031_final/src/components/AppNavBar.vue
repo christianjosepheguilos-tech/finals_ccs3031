@@ -11,9 +11,9 @@
         <a @click="scrolltoProductSection('Menu')">Products ⇣</a>
 
             <div class="submenu">
-            <a @click="scrolltoProductSection('coffe')">Coffe</a>
-            <a @click="scrolltoProductSection('non')">non-coffee</a>
-            <a @click="scrolltoProductSection('P&S')">Pastries & Snacks</a>
+            <a @click="scrolltoProductSection('coffee')">Coffee</a>
+            <a @click="scrolltoProductSection('noncoffee')">non-coffee</a>
+            <a @click="scrolltoProductSection('pastry')">Pastries & Snacks</a>
         </div>
       </div>
 
@@ -31,8 +31,8 @@ import { useRouter } from 'vue-router';
 const router = useRouter()
 
 const scrolltoProductSection = async (id) => {
-  if (router.currentRoute.value.path !== '/products') {
-    await router.push('/products')
+  if (router.currentRoute.value.path !== '/menu') {
+    await router.push('/menu')
   }
 
   setTimeout(() => {
