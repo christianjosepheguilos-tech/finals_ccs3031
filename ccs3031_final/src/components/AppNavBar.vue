@@ -6,7 +6,7 @@
     </div>
 
     <div class="menu">
-      <RouterLink to="/home">Home</RouterLink>
+      <RouterLink to="/">Home</RouterLink>
       <div class="dropdown">
         <a @click="scrolltoProductSection('Menu')">Products ⇣</a>
 

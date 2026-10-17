@@ -59,33 +59,27 @@
 }
 
 .welcome {
-  color: #647b4e;
+  color: rgb(73, 26, 26);
   font-weight: bold;
   font-size: 16px;
 }
 
 .Body h1 {
-  color: #29452c;
+  color: rgb(126, 10, 10);
   font-size: 42px;
 }
 
 .Body p {
-  color: #444444;
+  color:  rgb(73, 26, 26);
   font-size: 18px;
-}
-
-.Button {
-  background-color: #29452c;
-  color: white;
-  padding: 12px 22px;
-  border-radius: 5px;
-  margin-top: 15px;
 }
 
 @media (max-width: 768px) {
   .logo img {
-    width: 300px;
-    height: 150px;
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+    object-fit: contain;
   }
 
   .Body h1 {
